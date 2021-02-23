@@ -1,2 +1,2 @@
-# Jay-Launcher
-## A chrome extension for Jay's socials.
+# Bug-Hunter
+## A chrome extension for Developers hunting bugs.
