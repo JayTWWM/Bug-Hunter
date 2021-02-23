@@ -94,44 +94,112 @@
         font-size: 40px;
         color: #2f5876;
       }
+
+      @keyframes btn-anim1 {
+        0% {
+          left: -100%;
+        }
+        50%,
+        100% {
+          left: 100%;
+        }
+      }
+
+      @keyframes btn-anim2 {
+        0% {
+          top: -100%;
+        }
+        50%,
+        100% {
+          top: 100%;
+        }
+      }
+
+      @keyframes btn-anim3 {
+        0% {
+          right: -100%;
+        }
+        50%,
+        100% {
+          right: 100%;
+        }
+      }
+
+      @keyframes btn-anim4 {
+        0% {
+          bottom: -100%;
+        }
+        50%,
+        100% {
+          bottom: 100%;
+        }
+      }
+
+      .btn {
+        width: 150px;
+        border: none;
+        outline: none;
+        height: 20px;
+        border-radius: 49px;
+        background-color: #000000;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: 10px 65px;
+        cursor: pointer;
+        transition: 0.5s;
+      }
+
+      .btn:hover {
+        background-color: #fff;
+        color: #000000;
+      }
     </style>
-    <script src="popup.js"></script>
   </head>
 
   <body>
     <div class="modal-header">
       <h1 class="logo">
-        <img class="logo-icon" src="./images/jay_logo.png" />Jay
-        Launcher
+        <img class="logo-icon" src="./images/jay_logo.png" />Bug Hunter
         <span class="version">(1.0.0)</span>
       </h1>
     </div>
+    <br />
+    <center>
+      <div>
+        <input id="bug" />
+        <br />
+        <br />
+        <button id="stov" class="btn">Stack Overflow</button>
+      </div>
+    </center>
     <div class="modal-content">
-      <p>Jay Mehta's Socials</p>
+      <p>Developer's Socials</p>
     </div>
     <div class="modal-icons">
       <div class="flex-container">
         <div class="flex">
           <a href="https://www.facebook.com/jay.mehta.52687/" target="_blank">
-            <i class="fa fa-facebook" style="color:darksalmon "></i>
+            <i class="fa fa-facebook" style="color: darksalmon"></i>
           </a>
         </div>
         <div class="flex">
           <a href="https://twitter.com/JAYMEHT41338573" target="_blank">
-            <i class="fa fa-twitter" style="color:darksalmon "></i>
+            <i class="fa fa-twitter" style="color: darksalmon"></i>
           </a>
         </div>
         <div class="flex">
           <a href="https://www.instagram.com/im.jaymehta/" target="_blank">
-            <i class="fa fa-instagram" style="color:darksalmon "></i>
+            <i class="fa fa-instagram" style="color: darksalmon"></i>
           </a>
         </div>
         <div class="flex">
           <a href="https://github.com/JayTWWM" target="_blank">
-            <i class="fa fa-github" style="color:darksalmon "></i>
+            <i class="fa fa-github" style="color: darksalmon"></i>
           </a>
         </div>
       </div>
     </div>
+    <script src="popup.js"></script>
   </body>
 </html>
